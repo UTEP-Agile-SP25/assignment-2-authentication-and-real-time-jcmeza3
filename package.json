@@ -1,0 +1,21 @@
+{
+  "name": "assignment-2-authentication-and-real-time",
+  "version": "1.0.0",
+  "description": "Firebase authentication and real-time updates project",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "start": "npx http-server ."
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "stream-browserify": "^3.0.0",
+    "vm-browserify": "^1.1.2",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "firebase": "^11.4.0"
+  }
+}
